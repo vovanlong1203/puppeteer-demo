@@ -1,0 +1,14 @@
+{
+    "name" : "Test example extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "webRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "captureRequest.js"
+    }
+}
